@@ -19,8 +19,8 @@ Write the algorithm and its C ++ equivalent that can solve the cafeteria problem
 As the problem is described, the diner customer can buy several items of the same type, for example, 2 hamburgers. 
 However, it is not possible to order 2 hamburgers and 2 milkshakes at the same time. 
 How about modifying the code to resolve this issue? Modify the schedule so that, after entering the code of an item, 
-the solution asks the user if he wants to include any more items in the order. If yes (“S”), the algorithm / program 
-must request the code for the new item. If not (“N”), the algorithm / program must display the amount payable. 
+the solution asks the user if he wants to include any more items in the order. If yes ('S'), the algorithm / program 
+must request the code for the new item. If not ('N'), the algorithm / program must display the amount payable. 
 It is not necessary to display the customer's complete order.
 */
 
@@ -30,7 +30,7 @@ It is not necessary to display the customer's complete order.
 	float value = 0;
 	char continued='S';
 	cout << "*** Menu ***\n";
-	cout << "100 - Hambúrguer - $5,50\n";
+	cout << "100 - Hambï¿½rguer - $5,50\n";
 	cout << "101 - Hot-Dog - $4,50\n";
 	cout << "102 - Milkshake - $7,00\n";
 	cout << "103 - Pizza - $8,00\n";
@@ -66,7 +66,7 @@ It is not necessary to display the customer's complete order.
 		if (continued == 'S')
 		{
 			cout << "*** Menu ***\n";
-			cout << "100 - Hambúrguer - $5,50\n";
+			cout << "100 - Hambï¿½rguer - $5,50\n";
 			cout << "101 - Hot-Dog - $4,50\n";
 			cout << "102 - Milkshake - $7,00\n";
 			cout << "103 - Pizza - $8,00\n";
